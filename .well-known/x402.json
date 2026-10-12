@@ -1,0 +1,19 @@
+{
+  "x402Version": 1,
+  "resource": {
+    "id": "fresh-markets-watch",
+    "name": "Fresh Markets Watch",
+    "description": "Fresh Markets Watch \u2014 x402-gated agent API"
+  },
+  "description": "Access to the fresh-markets-watch API",
+  "accepts": [
+    {
+      "scheme": "exact",
+      "network": "eip155:8453",
+      "asset": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+      "resource": "/",
+      "price": "0.01",
+      "payTo": "0x76Ef...631f"
+    }
+  ]
+}
