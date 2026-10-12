@@ -1,0 +1,14 @@
+node_modules/
+coverage/
+*.log
+*.md
+!README.md
+!CHANGELOG.md
+!submissions/*.md
+wrangler.toml
+wrangler.toml.local
+.env
+.env.*
+!.env.example
+*.local
+.DS_Store
