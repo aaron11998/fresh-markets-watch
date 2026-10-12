@@ -1,0 +1,15 @@
+name = "fresh-markets-watch"
+main = "src/index.ts"
+compatibility_date = "2024-01-01"
+compatibility_flags = ["nodejs_compat"]
+
+[vars]
+# Environment (set via wrangler secret put)
+# ALCHEMY_API_KEY = "your-alchemy-key"
+# ORG_EVM_PAYTO = "0x76Ef...631f"
+# X402_PRICE_USD = "0.01"
+
+[[kv_namespaces]]
+binding = "FRESH_KV"
+id = "a0dce104b1414999a419f3041841055c"  # Fresh namespace created 2026-09-26 (old id dead on this account, code 10041)
+
